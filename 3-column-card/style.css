@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+section {
+  display: flex;
+  padding: 2rem;
+  width: 80rem;
+  height: auto;
+  transition: 0.3s ease-in;
+}
+
+.sedan-info {
+  background-color: hsl(31, 77%, 52%);
+  padding: 3rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.sedan-heading {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+.sedan-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.suv-info {
+  background-color: hsl(184, 100%, 22%);
+  padding: 3rem;
+}
+
+.suv-heading {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+.suv-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.luxury-info {
+  background-color: hsl(179, 100%, 13%);
+  padding: 3rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.luxury-heading {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+.luxury-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  /* width: 40%; */
+  /* height: 2.5rem; */
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  border-radius: 2rem;
+  border-style: none;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+.btn-sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-sedan:hover {
+  color: hsl(31, 97%, 35%);
+}
+
+.btn-suv {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-suv:hover,
+.btn-suv:visited,
+.btn-suv:focus {
+  color: hsl(183, 97%, 12%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover,
+.btn-luxury:visited,
+.btn-luxury:focus {
+  color: hsl(180, 100%, 8%);
+}
